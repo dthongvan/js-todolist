@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+}
+
+.newTodo {
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+    min-height: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input input {
+    width: 75%;
+    padding: 6px 12px;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+}
+
+.add {
+    width: 14%;
+    border-radius: 4px;
+    background-color: #51ffa9;
+    border: none;
+}
+
+.add:hover {
+    cursor: pointer;
+    background-color: #33cb80;
+}
+
+.edit {
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+    min-height: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #d3d3d3;
+}
+
+.input-edit {
+    width: 71%;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    margin-right: 10px;
+}
+
+.save {
+    width: 12%;
+    background-color: rgb(217, 83, 79);
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.save:hover {
+    background-color: #c9302c;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+li button {
+    color: red;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+li input {
+    border-radius: 4px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ff5159;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+li input:active {
+    background-color: #33cb80;
+    color: #000000;
+}
